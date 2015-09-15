@@ -280,9 +280,14 @@ Private Sub cmdCalendario_Click()
 frmCalendario.Show
 End Sub
 
+Private Sub cmdEmpresas_Click()
+frmNuevoProveedor.Show
+frmNuevoProveedor.txtBuscar.SetFocus
+End Sub
+
 Private Sub Form_Load()
 
-direccion = "C:\Users\Lucas\Desktop\Proyecto\2ºEntrega\proyecto.mdb"
+direccion = "C:\Users\Anthony\Desktop\Proyecto\2ºEntrega\proyecto.mdb"
 
 conectar
 
